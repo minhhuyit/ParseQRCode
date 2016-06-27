@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "author": "Huy Vo Minh",
+  "name": "Parse QR",
+  "description": "Extension to Parse QR Code by Huy Vo Minh",
+  "version": "1.0",
+
+  "icons": {
+    "48": "icon.png"
+  },
+
+  "permissions": [
+    "tabs", "<all_urls>"
+  ],
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
